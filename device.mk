@@ -83,10 +83,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.camera.aux.packagelist=com.android.camera,org.codeaurora.snapcam \
     persist.vendor.camera.preview.ubwc=0
 
-# Display
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=420
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.ad=1 \
     ro.vendor.display.ad.sdr_calib_data=/system/vendor/etc/sdr_config.cfg \
