@@ -80,10 +80,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     vendor.camera.aux.packageblacklist=com.tencent.mm \
     vendor.camera.hal1.packagelist=com.intsig.camscanner
 
-# ConfigPanel
-PRODUCT_PACKAGES += \
-    ConfigPanel
-
 # Consumerir
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
